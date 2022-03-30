@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class BasicosComponent implements OnInit {
+export class BasicosComponent {
 
     toUpper: string = 'nombre';
     toLower: string = 'NOMBRE';
@@ -15,8 +15,4 @@ export class BasicosComponent implements OnInit {
     fecha: Date = new Date();
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }
